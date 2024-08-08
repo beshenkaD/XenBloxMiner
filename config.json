@@ -1,0 +1,8 @@
+{
+    "address": "0xA998c130E8d2d7447672e0cf4d956b3381BC66Ef",
+    "show_banner": true,
+    "threads": 0,
+    "worker": 7,
+    "log": "XenBlox.log",
+    "devfee": 3
+}
