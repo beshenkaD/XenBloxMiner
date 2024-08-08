@@ -2,6 +2,7 @@
 > Efficient multi-arch (yet) CPU miner for Xen Blocks
 
 ## About
+Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to download XenBlox.
 ### Features
 - Easy to use. A simple json config is enough to start mining. Simple distribution for all popular systems.
 - Multi-arch. Currently XenBlox supports `amd64` and `aarch64`.
