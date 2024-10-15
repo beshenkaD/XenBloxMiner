@@ -1,8 +1,87 @@
 {
-    "address": "0xA998c130E8d2d7447672e0cf4d956b3381BC66Ef",
-    "show_banner": true,
-    "threads": 0,
-    "worker": 7,
-    "log": "XenBlox.log",
-    "devfee": 3
+    //
+    //
+    // Sample configuration for xenblox
+    //
+    //
+    "client": {
+        "address": "0xA998c130E8d2d7447672e0cf4d956b3381BC66Ef"
+        // "endpoint": "http://rpc.xenblocks.io/"
+        // "timeout": 5
+    },
+    //
+    // This settings are per-device. First one is 
+    // for device 0, second for device 1 and so on.
+    // You can list your devices by passing -d flag
+    // to xenblox
+    // Example: "reserve": [100, 150]
+    //         This means "reserved memory for GPU 0 is 100 MB"
+    //                    "reserved memory for GPU 1 is 150 MB"
+    //
+    // Tuning: 
+    //      1. Try to enable precompute. If it gives extra 
+    //         hashes then keep it
+    //      2. Try to set "reserve" at 50. If it works and gives
+    //         hashes then keep it
+    //         NOTE: you can increase "reserve" to lower miner pressure on system
+    //
+    // The next setting are good by default. You don't need to touch it in most cases:
+    //      1. Try to lower lanes to a value like 2 or 4 (if you have old hardware). 
+    //         Or increase to 16. 
+    //         Lanes always should be a power of 2 (default value is 8)
+    //      2. Try to set "oneshot" to false
+    //
+    "cuda": {
+        "enabled": true,
+        //
+        // Reserved memory in megabytes
+        //
+        "reserve": [
+        ],
+        //
+        // Tweaking this setting is mostly useful on high difficulty
+        // or when using low-end GPUs. Try numbers like 1, 2, 4, 6, 8
+        //
+        "lanes": [
+        ],
+        //
+        // Sometimes gives a bit more hashes. Try it!
+        //
+        "precompute": [
+        ],
+        //
+        // Most useful on low difficulties
+        //
+        "oneshot": [
+        ]
+    },
+    "cpu": {
+        "enabled": true,
+        //
+        // In most cases setting number of your
+        // physical cores here gives more hashrate
+        // than using all threads available
+        //
+        "threads": 8,
+        //
+        // From my expirience this never gives any boost
+        // but you might try it
+        //
+        "lanes": 1
+    },
+    //
+    // Settings for "dry run". For testing your settings
+    //
+    // "benchmark": true
+
+    //
+    // Set difficulty that will be used during dry run
+    //
+    // "benchmark-difficulty": 90000
+    "verbosity": 4,
+    "update-time": 5,
+    "use-colors": true,
+    "show-banner": true,
+    "devfee": 7,
+    "spoof-telemetry": false // Enable this to send fake info instead of your hardware info
 }
