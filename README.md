@@ -1,5 +1,5 @@
 # XenBlox
-> Efficient multi-arch (yet) CPU miner for Xen Blocks
+> Efficient multi-arch CPU and GPU miner for Xen Blocks
 
 ## About
 Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to download XenBlox.
@@ -14,7 +14,8 @@ Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to down
 - [TODO] Fully static windows executable.
 - [TODO] Hiveos support.
 - [TODO] Built-in validator.
-- [TODO] GPU support (both nvidia and amd!)
+- [TODO] GPU support (AMD)
+- ~~[TODO] GPU support (both nvidia and amd!)~~
 
 ### DevFee
 Minimum devfee is 2%. The devfee is triggered every 2 hours and lasts for about 2.4 minutes.  
