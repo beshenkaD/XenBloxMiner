@@ -1,6 +1,7 @@
 # XenBlox
 > Efficient multi-arch CPU and GPU miner for Xen Blocks
 
+![logo](https://raw.githubusercontent.com/beshenkaD/XenBloxMiner/refs/heads/main/img/logo.png)
 ## About
 Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to download XenBlox.
 ### Features
