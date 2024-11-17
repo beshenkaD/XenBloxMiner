@@ -7,7 +7,7 @@ Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to down
 ### Features
 - Easy to use. A simple [json config](https://github.com/beshenkaD/XenBloxMiner/blob/main/config.json) is enough to start mining. Simple distribution for all popular systems.
 - Multi-arch. Currently XenBlox supports `amd64` and `aarch64`.
-- Multi-platform. Both windows and linux are supported. There is deb packages for linux.
+- Multi-platform. Both windows and linux are supported.
 - Highly optimized using SIMD instructions. SSE, AVX, XOP, NEON are supported.
 - Automatic check for updates.
 - GPU support (NVIDIA)
