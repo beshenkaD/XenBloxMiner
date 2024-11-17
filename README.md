@@ -20,7 +20,7 @@ Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to down
 - ~~[TODO] GPU support (both nvidia and amd!)~~
 
 ### DevFee
-Minimum devfee is 2%. The devfee is triggered every 2 hours and lasts for about 2.4 minutes.  
+Minimum devfee is 5%. The devfee is triggered every 2 hours and lasts for 6 minutes.  
 **Important note**: DevFee triggers using local time, not a timer. So there is no way to skip it via miner restarting.
 
 ## Contribution
