@@ -10,6 +10,7 @@ Go to [Release](https://github.com/beshenkaD/XenBloxMiner/releases) page to down
 - Multi-platform. Both windows and linux are supported. There is deb packages for linux.
 - Highly optimized using SIMD instructions. SSE, AVX, XOP, NEON are supported.
 - Automatic check for updates.
+- GPU support (NVIDIA)
 - [TODO] Grafana monitoring.
 - [TODO] Global statistics.
 - [TODO] Fully static windows executable.
